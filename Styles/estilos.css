@@ -13,3 +13,22 @@ ul{
     display: flex;
     justify-content: space-between;
 }
+
+.mainButton{
+    background-color: #1bb76e;
+    color: white;
+    /* cursor: pointer; */
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    box-shadow: 1px 1px green;
+
+}
+
+/* Modificador para la clase */
+.mainButton:hover{
+    cursor: pointer;
+    box-shadow: 4px 5px green;
+    transform: scale(1.1);
+}
