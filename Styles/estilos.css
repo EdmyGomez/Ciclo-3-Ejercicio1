@@ -102,3 +102,22 @@ ul{
 .iconobusqueda:hover{
     color: blue;
 }
+
+.contenedorImagen{
+    width: 250px;
+    height: 350px;
+    display: flex;
+}
+
+.contenedorImagen>img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.breedCardcontainer{
+    display: flex;
+}
+
+.breedCard{
+    margin: 10px;
+}
