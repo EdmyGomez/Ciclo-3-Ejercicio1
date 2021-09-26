@@ -107,11 +107,20 @@ ul{
     width: 250px;
     height: 350px;
     display: flex;
+    border-radius: 15px;
 }
+
+.contenedorImagen:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
 
 .contenedorImagen>img{
     object-fit: cover;
     width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
 .breedCardcontainer{
@@ -120,4 +129,17 @@ ul{
 
 .breedCard{
     margin: 10px;
+    background-color: rgb(78, 78, 90);
+    box-shadow: 5px 10px 5px rgb(206, 203, 203);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-radius: 15px;
+    
+}
+
+.bredTitle{
+    color: white;
+    margin:10px;
+    font-weight: bold;
+    font-size: x-large;
 }
